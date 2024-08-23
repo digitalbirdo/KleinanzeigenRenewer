@@ -12,6 +12,9 @@ imap_server = "<imap server>"
 mail_folder = "INBOX" # folder where the mails from Kleinanzeigen can be found
 ```
 
+When using subfolders, make sure to use the correct sring:
+https://stackoverflow.com/questions/44230855/python-imaplib-selecting-folders
+
 The script makes use of the following modules:
 - selenium (for visiting the link)
 - BeautifulSoup (for parsing the html of the mail and find the links)
